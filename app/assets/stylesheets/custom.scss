@@ -185,3 +185,28 @@ input {
         color: $state-danger-text;
     }
 }
+
+.navbar-toggle {
+    float: left;
+    margin-left: 30%
+}
+
+@media (max-width: 800px) {
+    footer {
+        small {
+            display: block;
+            float: none;
+            margin-bottom: 1em;
+        }
+
+        ul {
+            float: none;
+            padding: 0;
+
+            li {
+                float: none;
+                margin-left: 0;
+            }
+        }
+    }
+}
